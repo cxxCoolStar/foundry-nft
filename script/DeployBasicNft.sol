@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: SEE LICENSE IN LICENSE
-pragma solidity ^8.18;
+pragma solidity ^0.8.18;
 
 import {BasicNft} from "../src/BasicNft.sol";
-import {Script} from "forge-std/Script";
+import {Script} from "forge-std/Script.sol";
 
 contract DeployBasicNft is Script {
 
